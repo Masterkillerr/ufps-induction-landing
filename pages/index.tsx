@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -23,12 +24,12 @@ export default function Home() {
         <p className="text-xl text-slate-500 leading-relaxed font-sans">
           Accede a la estructura curricular, investigación y cuerpo docente del programa de Ingeniería de Sistemas de la UFPS.
         </p>
-        <a 
-          href="/ufps-induction-landing/portal" 
+        <Link 
+          href="/portal" 
           className="inline-block bg-slate-900 text-white px-10 py-5 rounded-full font-semibold hover:bg-[#BE123C] transition-all hover:scale-105 shadow-xl shadow-slate-900/10"
         >
           Entrar al Portal Académico
-        </a>
+        </Link>
       </div>
     </div>
   );

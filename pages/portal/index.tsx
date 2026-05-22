@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Head from 'next/head';
+import Link from "next/link";
 
 // --- Data & Components ---
 
@@ -136,7 +136,7 @@ const Data = {
               { "name": "Milton Jesús Vera Contreras", "title": "Magister en Ingenieria", "img": "/profesores/Milton Jesús Vera Contreras/img.png" }
             ].map((p, i) => (
                 <div key={i} className="bg-white border border-slate-100 rounded-2xl p-6 flex items-center gap-4">
-                    <img src={`/profesores/${encodeURIComponent(p.name)}/${p.img.split('/').pop()}`} alt={p.name} className="w-16 h-16 rounded-full object-cover"/>
+                    <img src={`/ufps-induction-landing/profesores/${encodeURIComponent(p.name)}/${p.img.split('/').pop()}`} alt={p.name} className="w-16 h-16 rounded-full object-cover"/>
                     <div>
                         <h4 className="font-bold text-slate-900 text-sm">{p.name}</h4>
                         <p className="text-xs text-[#BE123C] font-semibold">{p.title}</p>
@@ -180,7 +180,7 @@ const PortalPage = () => {
           </nav>
         </aside>
         <main className="flex-1 overflow-y-auto p-16">
-          <a href="/" className="text-slate-400 mb-8 inline-block hover:text-[#BE123C] transition">← Volver al Inicio</a>
+          <Link href="/" className="text-slate-400 mb-8 inline-block hover:text-[#BE123C] transition">← Volver al Inicio</Link>
           <h2 className="font-display text-5xl font-bold mb-12">{Data[activeTab as keyof typeof Data].title}</h2>
           {Data[activeTab as keyof typeof Data].content}
         </main>
