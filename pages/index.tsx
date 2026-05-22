@@ -220,7 +220,7 @@ const LandingPage = () => {
                 Un total robusto de <strong>164 créditos académicos</strong> respaldados por renovación constante de acreditaciones (ABET/MEN).
               </p>
             </div>
-            <a href="/pensum_ufps_sistemas.pdf" download className="w-full md:w-auto bg-slate-900 text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-black transition-colors shrink-0 text-center">
+            <a href="/ufps-induction-landing/pensum_ufps_sistemas.pdf" download className="w-full md:w-auto bg-slate-900 text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-black transition-colors shrink-0 text-center">
               Descargar Pensum Completo
             </a>
           </div>
