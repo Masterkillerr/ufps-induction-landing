@@ -72,12 +72,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="w-full sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-slate-100 px-6 py-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
-          {/* Shield logo mark */}
-          <div className="w-9 h-9 bg-[#BE123C] rounded-lg flex items-center justify-center shadow-sm">
-            <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18" />
-            </svg>
-          </div>
+          <img src="/ufps-induction/logo-ufps.png" alt="UFPS Logo" className="h-10 w-auto" />
           <span className="font-display text-lg font-bold text-slate-900 tracking-tight">
             UFPS <span className="text-[#BE123C]">·</span> Sistemas
           </span>
@@ -188,11 +183,7 @@ export default function Home() {
       <footer className="py-10 px-6 border-t border-slate-100 bg-white">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-[#BE123C] rounded-lg flex items-center justify-center">
-              <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18" />
-              </svg>
-            </div>
+            <img src="/ufps-induction/logo-ufps.png" alt="UFPS Logo" className="h-8 w-auto grayscale opacity-80" />
             <span className="font-display font-bold text-slate-900">UFPS <span className="text-[#BE123C]">·</span> Ingeniería de Sistemas</span>
           </div>
           <p className="text-sm text-slate-400">© {new Date().getFullYear()} Universidad Francisco de Paula Santander</p>
