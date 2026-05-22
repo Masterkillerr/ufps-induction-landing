@@ -24,7 +24,7 @@ export default function Home() {
           Accede a la estructura curricular, investigación y cuerpo docente del programa de Ingeniería de Sistemas de la UFPS.
         </p>
         <a 
-          href="/portal" 
+          href="/ufps-induction-landing/portal" 
           className="inline-block bg-slate-900 text-white px-10 py-5 rounded-full font-semibold hover:bg-[#BE123C] transition-all hover:scale-105 shadow-xl shadow-slate-900/10"
         >
           Entrar al Portal Académico
