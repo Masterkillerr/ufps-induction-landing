@@ -274,7 +274,7 @@ const LandingPage = () => {
             ].map((p, i) => (
               <div key={i} className="group bg-white border border-slate-100 rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300">
                 <div className="aspect-square relative overflow-hidden">
-                    <img src={p.img} alt={p.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+                    <img src={`/profesores/${encodeURIComponent(p.name)}/${p.img.split('/').pop()}`} alt={p.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
                 </div>
                 <div className="p-6">
                     <h4 className="font-bold text-slate-900 mb-1">{p.name}</h4>
